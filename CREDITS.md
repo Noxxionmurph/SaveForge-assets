@@ -48,6 +48,10 @@ trainer card badges, from the pret/pokeemerald disassembly (https://github.com/p
 `graphics/trainer_card/badges.png`), in the sheet's own colours (the games show them in silver), with the background
 made transparent. SaveHub's `scripts/extract-hoenn-badges.py` redoes them.
 
+The eight Kanto badges FireRed and LeafGreen show (`sprites/badges/frlg/1.png` to `8.png`, Boulder to Earth) are their
+own trainer card badges, from the pret/pokefirered disassembly (https://github.com/pret/pokefirered,
+`graphics/trainer_card/badges.png`), treated the same way (`scripts/extract-hoenn-badges.py <dir> frlg`).
+
 ## Battle Frontier symbols
 
 Emerald's seven Battle Frontier symbols (`sprites/frontier/silver-1.png` to `silver-7.png` and `gold-1.png` to
@@ -95,7 +99,7 @@ share eight: the six 1bpp tiles of the pret/pokecrystal disassembly's `gfx/frame
 pret/pokegold), with the top and bottom edge both the game's ─ tile and both sides its │ tile, as the game draws them,
 in black on transparent so the editor can draw them in the window's own colours. Ruby and Sapphire's twenty are
 pret/pokeruby's `graphics/text_window/1.png` to `20.png`, and Emerald's (nine of them redrawn) pret/pokeemerald's, in
-the colours the GBA shows, with colour 0 (which the game leaves see-through) made transparent. SaveHub's
+the colours the GBA shows, as are FireRed and LeafGreen's ten (pret/pokefirered's `graphics/text_window/`), with colour 0 (which the game leaves see-through) made transparent. SaveHub's
 `scripts/extract-frames.py` redoes them.
 
 ## Secret bases
