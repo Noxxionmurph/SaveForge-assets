@@ -16,12 +16,13 @@ sprites/pokemon/shiny/<dex>.png    the same icons in their shiny colours
 sprites/items/<category>/<name>.png  32x32 item icons
 sprites/types/<type>.png           128x128 type icons (Sword and Shield's), plus unknown.png for ???
 sprites/type-labels/<type>.png     32x16 in-game type labels (Emerald's), plus unknown.png for ??? (not shown at the moment)
-sprites/badges/<1-8>.png           16x16 gym badges: Kanto here, Johto in johto/, Hoenn in hoenn/
+sprites/badges/<1-8>.png           16x16 gym badges: Kanto here, Johto in johto/, Hoenn in hoenn/, FireRed/LeafGreen in frlg/
 sprites/marks/shiny.svg            the shiny mark (Sword and Shield onwards)
 sprites/pikachu.png                80x720 sheet: 18 reactions, two 40x40 frames each
 sprites/frames/gen2/<1-8>.png      24x24 window frames (OPTION menu FRAME: TYPE 1-8), Gold/Silver/Crystal, black on transparent
 sprites/frames/rs/<1-20>.png       24x24 window frames, Ruby/Sapphire (TYPE 1-20)
 sprites/frames/emerald/<1-20>.png  24x24 window frames, Emerald (TYPE 1-20)
+sprites/frames/frlg/<1-10>.png     24x24 window frames, FireRed/LeafGreen (TYPE 1-10)
 ```
 
 To use it with a local copy of the editor: `git clone https://github.com/Noxxionmurph/SaveHub-assets assets` inside the
