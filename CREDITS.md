@@ -67,7 +67,7 @@ and Effort, 25-31 Marine to World) are the PokéNav's own 32x32 ribbon pictures,
 (`graphics/pokenav/ribbons/icons_big.png`), each in the palette the game gives it (`icons1.pal` to `icons5.pal`), with
 the background made transparent. SaveHub's `scripts/extract-gen3-ribbons.py` redoes them.
 
-## Final Fantasy class sprites
+## Final Fantasy class sprites and portraits
 
 `sprites/ff1/nes/<class>.png` (16x24) are each class's standing pose from Final Fantasy (NES, US): the battle sprite tiles
 at $9000 in bank 9 (`lut_BatSprCHR` in Disch's disassembly, https://github.com/Entroper/FF1Disassembly) in the palette
@@ -80,6 +80,9 @@ pixels could be told apart from the sprites, with the drop shadow left out.
 `sprites/ff1/gba/<class>.png` (26x24) are the party pictures from Final Fantasy I & II: Dawn of Souls (GBA, US) as its
 load screen draws them, taken from the game running in mGBA with a save whose three files hold all twelve classes.
 The window behind them is one colour per row, so every pixel that differs from its row's colour is the sprite.
+
+`sprites/ff2/gba/<character>.png` (28x28) are the menu portraits from Final Fantasy II in the same Dawn of Souls
+cartridge (Firion, Maria, Guy, Minwu, Josef, Gordon, Leila, Ricard), taken from its party menu in mGBA the same way.
 
 ## Pikachu's reactions
 
