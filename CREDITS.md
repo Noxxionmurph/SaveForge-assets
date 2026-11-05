@@ -1,7 +1,7 @@
 # Credits
 
 SaveForge is an unofficial, free, non-commercial fan tool. It is not affiliated with or endorsed by Nintendo,
-Game Freak or Creatures Inc. Pokémon and everything that belongs to it is theirs.
+Game Freak, Creatures Inc. or Square Enix. Pokémon and Final Fantasy, and everything that belongs to them, are theirs.
 
 The pictures are not part of this code repository. They live in a separate repository,
 [SaveHub-assets](https://github.com/Noxxionmurph/SaveHub-assets), and the site loads them from there, so the editor works
@@ -66,6 +66,16 @@ The 32 Gen 3 ribbons (`sprites/ribbons/gen3/0.png` to `31.png`, numbered like th
 and Effort, 25-31 Marine to World) are the PokéNav's own 32x32 ribbon pictures, from the pret/pokeemerald disassembly
 (`graphics/pokenav/ribbons/icons_big.png`), each in the palette the game gives it (`icons1.pal` to `icons5.pal`), with
 the background made transparent. SaveHub's `scripts/extract-gen3-ribbons.py` redoes them.
+
+## Final Fantasy class sprites
+
+`sprites/ff1/nes/<class>.png` (16x24) are each class's standing pose from Final Fantasy (NES, US): the battle sprite tiles
+at $9000 in bank 9 (`lut_BatSprCHR` in Disch's disassembly, https://github.com/Entroper/FF1Disassembly) in the palette
+the game gives that class, with colour 0 transparent. `scripts/extract-ff1-nes-sprites.py` redoes them from the ROM.
+
+`sprites/ff1/psp/<class>.png` (48x42) are the party pictures from Final Fantasy (PSP, US) as its load screen draws them,
+taken from the game running in PPSSPP: three screens of the same window with different classes, so the window's own
+pixels could be told apart from the sprites, with the drop shadow left out.
 
 ## Pikachu's reactions
 
