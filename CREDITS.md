@@ -84,6 +84,10 @@ The window behind them is one colour per row, so every pixel that differs from i
 `sprites/ff2/gba/<character>.png` (28x28) are the menu portraits from Final Fantasy II in the same Dawn of Souls
 cartridge (Firion, Maria, Guy, Minwu, Josef, Gordon, Leila, Ricard), taken from its party menu in mGBA the same way.
 
+`sprites/ff2/gba/battle/firion.png` (26x24, the same frame as the Final Fantasy I ones) is Firion's battle sprite from that
+Final Fantasy II, standing in the party line: his sprite tiles and palette read out of video memory during a battle in
+mGBA, with colour 0 transparent.
+
 ## Pikachu's reactions
 
 `sprites/pikachu.png` (two 40x40 frames for each of the 18 ways your Pokémon Yellow starter reacts when you talk to it,
