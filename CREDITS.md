@@ -77,6 +77,10 @@ the game gives that class, with colour 0 transparent. `scripts/extract-ff1-nes-s
 taken from the game running in PPSSPP: three screens of the same window with different classes, so the window's own
 pixels could be told apart from the sprites, with the drop shadow left out.
 
+`sprites/ff1/gba/<class>.png` (26x24) are the party pictures from Final Fantasy I & II: Dawn of Souls (GBA, US) as its
+load screen draws them, taken from the game running in mGBA with a save whose three files hold all twelve classes.
+The window behind them is one colour per row, so every pixel that differs from its row's colour is the sprite.
+
 ## Pikachu's reactions
 
 `sprites/pikachu.png` (two 40x40 frames for each of the 18 ways your Pokémon Yellow starter reacts when you talk to it,
