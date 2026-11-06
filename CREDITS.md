@@ -93,6 +93,15 @@ cartridge (Firion, Maria, Guy, Minwu, Josef, Gordon, Leila, Ricard), taken from 
 Final Fantasy II, standing in the party line: his sprite tiles and palette read out of video memory during a battle in
 mGBA, with colour 0 transparent.
 
+`sprites/ff2/nes/<character>.png` (24x32) are the menu portraits from Final Fantasy II on the Famicom (Firion, Maria,
+Guy, Minwu, Josef, Gordon, Leila, Ricard, Leon): their tiles read out of the cartridge (11 portraits of 3x4 tiles from
+ROM offset 0x24010) and coloured to match the party menu as the game draws it.
+
+`sprites/ff2/psp/<character>.png` (52x60) are the menu portraits from Final Fantasy II Anniversary Edition on the PSP
+(Firion, Maria, Guy, Leon, Minwu, Josef, Gordon, Leila, Ricard, Scott): the `ff2_face_*` pictures in the disc's data
+archive, unpacked (SSZL, a plain LZSS), drawn from their 16x16 tiles with the palette stored beside each one, colour 0
+transparent.
+
 ## Pikachu's reactions
 
 `sprites/pikachu.png` (two 40x40 frames for each of the 18 ways your Pokémon Yellow starter reacts when you talk to it,
