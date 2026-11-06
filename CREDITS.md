@@ -81,6 +81,11 @@ pixels could be told apart from the sprites, with the drop shadow left out.
 load screen draws them, taken from the game running in mGBA with a save whose three files hold all twelve classes.
 The window behind them is one colour per row, so every pixel that differs from its row's colour is the sprite.
 
+`sprites/ff1/wsc/<class>.png` (26x24) are the party pictures from Final Fantasy (WonderSwan Color, Japan) as its main
+menu draws them, taken from the game running in Mednafen's WonderSwan core with a save whose four characters were set to
+each of the twelve classes in turn. The window behind them is one flat colour, so every pixel that differs from it is the
+sprite.
+
 `sprites/ff2/gba/<character>.png` (28x28) are the menu portraits from Final Fantasy II in the same Dawn of Souls
 cartridge (Firion, Maria, Guy, Minwu, Josef, Gordon, Leila, Ricard), taken from its party menu in mGBA the same way.
 
