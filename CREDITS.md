@@ -97,6 +97,10 @@ mGBA, with colour 0 transparent.
 Guy, Minwu, Josef, Gordon, Leila, Ricard, Leon): their tiles read out of the cartridge (11 portraits of 3x4 tiles from
 ROM offset 0x24010) and coloured to match the party menu as the game draws it.
 
+`sprites/ff2/wsc/<character>.png` (28x28) are the menu portraits from Final Fantasy II on the WonderSwan Color
+(Firion, Maria, Guy, Minwu, Josef, Gordon, Leila, Ricard, Leon), taken from its party menu in Mednafen's WonderSwan core
+with a save whose first character was set to each of them in turn.
+
 `sprites/ff2/psp/<character>.png` (52x60) are the menu portraits from Final Fantasy II Anniversary Edition on the PSP
 (Firion, Maria, Guy, Leon, Minwu, Josef, Gordon, Leila, Ricard, Scott): the `ff2_face_*` pictures in the disc's data
 archive, unpacked (SSZL, a plain LZSS), drawn from their 16x16 tiles with the palette stored beside each one, colour 0
