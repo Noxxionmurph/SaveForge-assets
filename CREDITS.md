@@ -4,7 +4,7 @@ SaveForge is an unofficial, free, non-commercial fan tool. It is not affiliated 
 Game Freak, Creatures Inc. or Square Enix. Pokémon and Final Fantasy, and everything that belongs to them, are theirs.
 
 The pictures are not part of this code repository. They live in a separate repository,
-[SaveHub-assets](https://github.com/Noxxionmurph/SaveHub-assets), and the site loads them from there, so the editor works
+[SaveForge-assets](https://github.com/Noxxionmurph/SaveForge-assets), and the site loads them from there, so the editor works
 the same (without the pictures) if they are ever removed. This is who made them.
 
 ## Pokémon, item and type icons
@@ -46,7 +46,7 @@ colours the game gives them on a Game Boy Color (its badge palette). `scripts/ex
 The eight Hoenn badges (`sprites/badges/hoenn/1.png` to `8.png`, Stone to Rain) are Ruby, Sapphire and Emerald's own
 trainer card badges, from the pret/pokeemerald disassembly (https://github.com/pret/pokeemerald,
 `graphics/trainer_card/badges.png`), in the sheet's own colours (the games show them in silver), with the background
-made transparent. SaveHub's `scripts/extract-hoenn-badges.py` redoes them.
+made transparent. SaveForge's `scripts/extract-hoenn-badges.py` redoes them.
 
 The eight Kanto badges FireRed and LeafGreen show (`sprites/badges/frlg/1.png` to `8.png`, Boulder to Earth) are their
 own trainer card badges, from the pret/pokefirered disassembly (https://github.com/pret/pokefirered,
@@ -57,7 +57,7 @@ own trainer card badges, from the pret/pokefirered disassembly (https://github.c
 Emerald's seven Battle Frontier symbols (`sprites/frontier/silver-1.png` to `silver-7.png` and `gold-1.png` to
 `gold-7.png`, Tower to Pyramid) are the Frontier Pass's own symbols, from the pret/pokeemerald disassembly
 (`graphics/frontier_pass/medals.png`), in the silver and gold palettes the game loads for them (`silver.pal`,
-`gold.pal`), with the background made transparent. SaveHub's `scripts/extract-frontier-symbols.py` redoes them.
+`gold.pal`), with the background made transparent. SaveForge's `scripts/extract-frontier-symbols.py` redoes them.
 
 ## Gen 3 ribbons
 
@@ -65,7 +65,7 @@ The 32 Gen 3 ribbons (`sprites/ribbons/gen3/0.png` to `31.png`, numbered like th
 1-20 the Cool, Beauty, Cute, Smart and Tough contest ribbons from Normal to Master Rank, 21-24 Winning, Victory, Artist
 and Effort, 25-31 Marine to World) are the PokéNav's own 32x32 ribbon pictures, from the pret/pokeemerald disassembly
 (`graphics/pokenav/ribbons/icons_big.png`), each in the palette the game gives it (`icons1.pal` to `icons5.pal`), with
-the background made transparent. SaveHub's `scripts/extract-gen3-ribbons.py` redoes them.
+the background made transparent. SaveForge's `scripts/extract-gen3-ribbons.py` redoes them.
 
 ## Final Fantasy class sprites and portraits
 
@@ -127,7 +127,7 @@ All the artwork is © Nintendo / Creatures Inc. / GAME FREAK Inc.
 
 The 14 Pokéblock colours (`sprites/pokeblocks/1.png` to `14.png`, numbered like the colour a save stores: 1 Red ...
 14 Gold) are the 8x8 Pokéblock from the pret/pokeemerald disassembly (`graphics/pokeblock/pokeblock.png`), in each of
-the palettes the game uses for it (`red.pal` to `gold.pal`), with the background made transparent. SaveHub's
+the palettes the game uses for it (`red.pal` to `gold.pal`), with the background made transparent. SaveForge's
 `scripts/extract-pokeblocks.py` redoes them.
 
 ## Window frames
@@ -138,7 +138,7 @@ share eight: the six 1bpp tiles of the pret/pokecrystal disassembly's `gfx/frame
 pret/pokegold), with the top and bottom edge both the game's ─ tile and both sides its │ tile, as the game draws them,
 in black on transparent so the editor can draw them in the window's own colours. Ruby and Sapphire's twenty are
 pret/pokeruby's `graphics/text_window/1.png` to `20.png`, and Emerald's (nine of them redrawn) pret/pokeemerald's, in
-the colours the GBA shows, as are FireRed and LeafGreen's ten (pret/pokefirered's `graphics/text_window/`), with colour 0 (which the game leaves see-through) made transparent. SaveHub's
+the colours the GBA shows, as are FireRed and LeafGreen's ten (pret/pokefirered's `graphics/text_window/`), with colour 0 (which the game leaves see-through) made transparent. SaveForge's
 `scripts/extract-frames.py` redoes them.
 
 ## Secret bases
@@ -148,5 +148,5 @@ The secret base pictures (`sprites/secret-bases/`) come from the pret/pokeemeral
 tileset (`data/tilesets/secondary/secret_base/metatiles.bin`, which the rooms and the decorations share), drawn from the
 primary secret base tiles and that kind's own tiles and palettes, 16 to a row. `dolls/<decoration id>.png` are the
 dolls and cushions, which the game shows as sprites: the first frame of each one's picture in
-`graphics/object_events/pics/` in its object palette, with colour 0 made transparent. SaveHub's
+`graphics/object_events/pics/` in its object palette, with colour 0 made transparent. SaveForge's
 `scripts/extract-secret-bases.py` redoes them.
