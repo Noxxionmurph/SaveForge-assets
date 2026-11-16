@@ -1,5 +1,5 @@
 # Publishes this repository as a static site, which is where the SaveForge editor loads its pictures from
-# (https://noxxionmurph.github.io/SaveHub-assets/sprites/...). Needs Settings > Pages > Source: "GitHub Actions".
+# (https://noxxionmurph.github.io/SaveForge-assets/sprites/...). Needs Settings > Pages > Source: "GitHub Actions".
 name: Publish the artwork
 
 on:
