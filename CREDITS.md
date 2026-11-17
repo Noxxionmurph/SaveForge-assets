@@ -119,6 +119,13 @@ sheets for the Pixel Remasters (PC) on The Spriters Resource (for example
 https://www.spriters-resource.com/pc_computer/finalfantasy3pixelremaster/), where each sheet's page names who ripped it.
 `scripts/extract-pr-tile-sprites.py` redoes the cut.
 
+`sprites/ff1/pr/jobs/<class>.png`, `sprites/ff2/pr/jobs/<character>.png` and `sprites/ff3/pr/jobs/<job>.png` (19x25, one
+frame for all) are the standing battle poses of all twelve Final Fantasy classes, all ten Final Fantasy II characters and
+all 21 Final Fantasy III jobs plus the four heroes' Onion Knights (`onion-knight-0.png` to `-3.png`, Luneth to Ingus),
+for every editor's party window. They are the "Default_00" frames in the Pixel Remaster (PC) games' own character files,
+which the games' tables tie to the class, character and job names. Only these frames are kept, not the games' files.
+`scripts/extract-pr-sprites.py` redoes the cut from installed copies.
+
 ## Pikachu's reactions
 
 `sprites/pikachu.png` (two 40x40 frames for each of the 18 ways your Pokémon Yellow starter reacts when you talk to it,
