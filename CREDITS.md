@@ -126,6 +126,10 @@ for every editor's party window. They are the "Default_00" frames in the Pixel R
 which the games' tables tie to the class, character and job names. Only these frames are kept, not the games' files.
 `scripts/extract-pr-sprites.py` redoes the cut from installed copies.
 
+`sprites/ff-status/<status>.png` (10x10: blind, poison, mini, toad, stone, silence, ko) are the condition icons from the
+Pixel Remaster (PC) Final Fantasy's own UI icon files, for the party windows. `scripts/extract-pr-status-icons.py` redoes
+the cut from an installed copy.
+
 ## Pikachu's reactions
 
 `sprites/pikachu.png` (two 40x40 frames for each of the 18 ways your Pokémon Yellow starter reacts when you talk to it,
