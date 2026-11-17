@@ -112,6 +112,13 @@ transparent. The Onion Kid's palette goes by party member instead, so it is ther
 first and fourth members, `onion-kid-2.png`, `onion-kid-3.png`). Checked against the game running in an emulator: the
 tiles and palettes are the ones a battle shows. `scripts/extract-ff3-nes-sprites.py` redoes them from the ROM.
 
+`sprites/ff1/pr/warrior.png`, `sprites/ff2/pr/firion.png` and `sprites/ff3/pr/onion-knight.png` (18x24, one frame for
+all three) are the standing battle poses of Final Fantasy's Warrior, Final Fantasy II's Firion and Final Fantasy III's
+first Onion Knight from the Pixel Remasters, for the landing page tiles. They are cut from the "Playable Characters"
+sheets for the Pixel Remasters (PC) on The Spriters Resource (for example
+https://www.spriters-resource.com/pc_computer/finalfantasy3pixelremaster/), where each sheet's page names who ripped it.
+`scripts/extract-pr-tile-sprites.py` redoes the cut.
+
 ## Pikachu's reactions
 
 `sprites/pikachu.png` (two 40x40 frames for each of the 18 ways your Pokémon Yellow starter reacts when you talk to it,
