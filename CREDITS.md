@@ -106,6 +106,12 @@ with a save whose first character was set to each of them in turn.
 archive, unpacked (SSZL, a plain LZSS), drawn from their 16x16 tiles with the palette stored beside each one, colour 0
 transparent.
 
+`sprites/ff3/nes/<job>.png` (16x24) are each job's standing battle pose from Final Fantasy III on the Famicom (the
+first 6 of the 42 tiles each job has at ROM offset 0x50010) in the battle palette the game gives that job, colour 0
+transparent. The Onion Kid's palette goes by party member instead, so it is there three times (`onion-kid.png` for the
+first and fourth members, `onion-kid-2.png`, `onion-kid-3.png`). Checked against the game running in an emulator: the
+tiles and palettes are the ones a battle shows. `scripts/extract-ff3-nes-sprites.py` redoes them from the ROM.
+
 ## Pikachu's reactions
 
 `sprites/pikachu.png` (two 40x40 frames for each of the 18 ways your Pokémon Yellow starter reacts when you talk to it,
